@@ -183,7 +183,7 @@ resource "docker_container" "windows" {
   }
 
   capabilities {
-    add = ["CAP_NET_ADMIN"]
+    add = []
   }
 
   ports {
